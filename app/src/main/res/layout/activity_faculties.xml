@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/drawer_layout"
+    tools:context=".FacultiesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faculties"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/book_request"
+            android:layout_width="290dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Book Request"
+            android:drawableLeft="@drawable/bookrequest"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="200dp"/>
+
+        <Button
+            android:id="@+id/issued_book_history"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/userbookreturn"
+            android:text="Issued Book History"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/return_book_due"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="Return Book Due"
+            android:drawableLeft="@drawable/returndue"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context=".BookOrderActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        card_view:cardCornerRAdius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Id"
+                android:textSize="20sp"
+                android:padding="20dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="101"
+                android:padding="20dp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Name"
+                android:textSize="20sp"
+                android:padding="20dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="20dp"
+                android:text="name"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Date "
+                android:textSize="20sp"
+                android:padding="20dp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/copies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="20dp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Return Date"
+                android:textSize="20sp"
+                android:padding="20dp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:focusable="false"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/orderbtn"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="ORDER"
+            android:textSize="20sp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/roundedbutton"/>
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

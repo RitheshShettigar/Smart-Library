@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartlibrary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartLibrary">
+        <activity
+            android:name=".PrincipalPasswordupdateActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:label="About As"
+            android:parentActivityName=".AboutActivity" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false"
+            android:label="Notification"
+            android:parentActivityName=".NotificationActivity" />
+        <activity
+            android:name=".PrincipleProfileActivity"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".PrincipleProfileActivity" />
+        <activity
+            android:name=".PrincipleBookIssueHistory"
+            android:exported="false"
+            android:label="Issued Book History"
+            android:parentActivityName=".PrincipleBookIssueHistory" />
+        <activity
+            android:name=".IssuedBookHistoryUserActivity"
+            android:exported="false"
+            android:label="Issued Book History"
+            android:parentActivityName=".IssuedBookHistoryUserActivity" />
+        <activity
+            android:name=".BookRequestedAdminActivity"
+            android:exported="false"
+            android:label="Order History"
+            android:parentActivityName=".BookRequestedAdminActivity" />
+        <activity
+            android:name=".BookOrderActivity"
+            android:exported="false"
+            android:label="Book Order"
+            android:parentActivityName=".BookOrderActivity" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false"
+            android:label="My Profile"
+            android:parentActivityName=".UserProfile" />
+        <activity
+            android:name=".AdminResetPasswordAactivity"
+            android:exported="false"
+            android:label="Change Password"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".AdminProfileActivity"
+            android:exported="false"
+            android:label="Profile"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".UserReportActivity"
+            android:exported="false"
+            android:label="User Details"
+            android:parentActivityName=".UserReportActivity" />
+        <activity
+            android:name=".AddUserActivity"
+            android:exported="false"
+            android:label="Add User Details"
+            android:parentActivityName=".AddUserActivity" />
+        <activity
+            android:name=".BookReportOrderActivity"
+            android:exported="false"
+            android:label="Book Details and Order"
+            android:parentActivityName=".BookReportOrderActivity" />
+        <activity
+            android:name=".LibraryanDeatilsActivity"
+            android:exported="false"
+            android:label="Librarian Details"
+            android:parentActivityName=".LibraryanDeatilsActivity" />
+        <activity
+            android:name=".BookReportActivity"
+            android:exported="false"
+            android:label="Book Details"
+            android:parentActivityName=".BookReportActivity" />
+        <activity
+            android:name=".AddLibrarianActivity"
+            android:exported="false"
+            android:label="Add Librarian"
+            android:parentActivityName=".AddLibrarianActivity" />
+        <activity
+            android:name=".AddBookActivity"
+            android:exported="false"
+            android:label="Add Book Details"
+            android:parentActivityName=".AddBookActivity" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false"
+            android:label="Admin"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".PricnipleActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".FacultiesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

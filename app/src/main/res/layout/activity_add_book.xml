@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".AddBookActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/profile1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/bookimg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:id="@+id/bookID1"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:hint="Book ID"
+                android:textSize="18sp"
+                android:background="@drawable/edittext" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:id="@+id/bookname1"
+                android:layout_weight="1.31"
+                android:hint="Book Name"
+                android:textSize="18sp"
+                android:background="@drawable/edittext" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:id="@+id/bookauthor1"
+                android:layout_weight="1.31"
+                android:hint="Book Author"
+                android:textSize="18sp"
+                android:background="@drawable/edittext" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:id="@+id/bookpublication1"
+                android:hint="Book Publisher"
+                android:textSize="18sp"
+                android:background="@drawable/edittext" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:maxLength="5"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:id="@+id/bookyear1"
+                android:layout_weight="1.31"
+                android:hint="Book Year"
+                android:textSize="18sp"
+                android:background="@drawable/edittext" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:id="@+id/bookquantity1"
+                android:layout_weight="1.31"
+                android:hint="Book Quantity"
+                android:maxLength="3"
+                android:textSize="18sp"
+                android:background="@drawable/edittext" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:id="@+id/bookcategiry1"
+                android:layout_weight="1.31"
+                android:hint="Book Category"
+                android:textSize="18sp"
+                android:background="@drawable/edittext" />
+
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:id="@+id/booklanguage1"
+                android:layout_weight="1.31"
+                android:hint="Book Language"
+                android:textSize="18sp"
+                android:background="@drawable/edittext" />
+
+
+
+
+
+            <Button
+                android:text="Insert"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="30dp"
+               android:layout_marginLeft="100dp"
+                android:textColor="#ffff"
+                android:background="@drawable/roundedbutton"
+                android:id="@+id/btn_addbook"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+   </ScrollView>

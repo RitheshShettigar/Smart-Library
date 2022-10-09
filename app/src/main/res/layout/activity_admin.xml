@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Librarian"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+
+
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="Add Book"
+            android:drawableLeft="@drawable/addbook"
+            android:textColor="@color/white"
+            android:id="@+id/addbook"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:id="@+id/bookreport"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="book details"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/br"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:id="@+id/bookrequested"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/requestbook"
+            android:text="book requested"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/adduser"
+            android:text="add User"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/addstudent"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/user_report"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="user details"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/studreport"
+            android:backgroundTint="@color/black"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/navi_drawer_2" />
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

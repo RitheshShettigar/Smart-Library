@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Smart Library</string>
+    <string-array name="usertype">
+        <item>"None"  </item>
+        <item>"Student"  </item>
+        <item> "Librarian" </item>
+        <item> "Principal" </item>
+        <item> "Faculties" </item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Select Type</item>
+        <item>Student</item>
+        <item>Faculties</item>
+    </string-array>
+
+    <string-array name="quantity">
+        <item>None</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Select Year</item>
+        <item>2020-21</item>
+        <item>2021-22</item>
+        <item>2022-23</item>
+        <item>2023-24</item>
+        <item>2024-25</item>
+        <item>2025-26</item>
+        <item>2026-27</item>
+        <item>2027-28</item>
+        <item>2028-29</item>
+        <item>2029-30</item>
+        <item>2031-32</item>
+        <item>2032-33</item>
+    </string-array>
+
+
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

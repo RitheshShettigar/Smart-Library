@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_add_student.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_admin.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_faculties.xml" value="0.16" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_user.xml" value="0.22" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/lditem.xml" value="0.17" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/profilelibrarian.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/sditem.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary1/app/src/main/res/drawable-v24/ic_phone.xml" value="0.1305" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary1/app/src/main/res/layout/item_email.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary1/app/src/main/res/layout/item_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary1/app/src/main/res/layout/item_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/SmartLibrary1/app/src/main/res/layout/lditem.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/cancealuser.xml" value="0.193" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/edittext.xml" value="0.2703125" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/grad_bg.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/home.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/key.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/log.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/logout.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/menu.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/notification.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/person.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/profile.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/roundedbutton.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/searchuser.xml" value="0.193" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/searchuser1.xml" value="0.193" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/setting.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable-v24/side_nav_bar.xml" value="0.22870370370370371" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/drawable/roundedstudent.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_add_book.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_add_faculties.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_add_librarian.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_add_student.xml" value="0.2" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_add_user.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_admin.xml" value="0.264" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_admin2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_admin_profile.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_admin_reset_password_aactivity.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_book_order.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_book_report.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_book_report_order.xml" value="0.2150313152400835" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_book_requested_admin.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_faculties.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_faculties_report.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_issued_book_history_user.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_libraryan_deatils.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_notification.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_order_book.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_pricniple.xml" value="0.2" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_principal_passwordupdate.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_principle_book_issue_history.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_principle_profile.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_principleprofile_retriview.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_rent_book.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_second.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_setting.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_student_report.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_user.xml" value="0.264" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/activity_user_report.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/bditem.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/bditemstudent.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/book_update_popup.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/brl.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/fditem.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/fragment_b_d.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/issuedbookitem.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/item_email.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/item_image.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/item_image_user.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/item_info.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/item_type.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/item_year.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/lditem.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/main_nav_drawer.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/main_toolbar.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/main_toolbar2.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/navi_drawer_2.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/orderbook.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/principleissuebookreport_item.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/profilelibrarian.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/sditem.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/student_update_popup.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/layout/update_popup.xml" value="0.25" />
+        <entry key="..\:/Users/rites/AndroidStudioProjects/SmartLibrary/app/src/main/res/menu/search.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11 (3)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

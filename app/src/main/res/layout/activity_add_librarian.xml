@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".AddLibrarianActivity">
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/imageperson"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:layout_marginTop="50dp"
+        android:id="@+id/name1"
+        android:hint="Name"
+        android:textSize="18sp"
+        android:background="@drawable/edittext"
+        android:paddingStart="5dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:id="@+id/phone1"
+        android:hint="Phone Number"
+        android:textSize="18sp"
+        android:maxLength="10"
+        android:background="@drawable/edittext"
+        android:paddingStart="5dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="textWebEmailAddress"
+        android:id="@+id/email1"
+        android:hint="Email Id"
+        android:textSize="18sp"
+        android:background="@drawable/edittext"
+        android:paddingStart="5dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="numberPassword"
+        android:id="@+id/password1"
+        android:hint="Password"
+        android:maxLength="9"
+        android:minLines="6"
+        android:textSize="18sp"
+        android:background="@drawable/edittext"
+        android:paddingStart="5dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="numberPassword"
+        android:id="@+id/confirm_password1"
+        android:hint="Confirm Password"
+        android:textSize="18sp"
+        android:background="@drawable/edittext"
+        android:paddingStart="5dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/btn_addlibrarian1"
+        android:textSize="15sp"
+        android:text="Submit"/>
+
+
+
+
+
+
+
+</LinearLayout>
